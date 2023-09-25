@@ -1,3 +1,3 @@
 export const getHomePath = () => '/';
 
-export const getSuperheroPath = (superheroId: string) => `/${superheroId}`;
+export const getSuperheroPath = (superheroId: string) => `superheroes/${superheroId}`;
