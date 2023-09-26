@@ -1,0 +1,11 @@
+@import "@/app/styles/variables";
+
+.light {
+  --primary-color: #{$primary-light};
+  --inverted-color: #{$primary-light-inverted};
+  --info-color: #{$light-info};
+  --secondary-color: #{$secondary-light};
+  --warning-color: #{$warning-light};
+  --success-color: #{$success-light};
+  --error-color: #{$error-light};
+}

@@ -1,0 +1,11 @@
+@import "@/app/styles/variables";
+
+.dark {
+  --primary-color: #{$primary-dark};
+  --inverted-color: #{$primary-dark-inverted};
+  --info-color: #{$dark-info};
+  --secondary-color: #{$secondary-dark};
+  --warning-color: #{$warning-dark};
+  --success-color: #{$success-dark};
+  --error-color: #{$error-dark};
+}

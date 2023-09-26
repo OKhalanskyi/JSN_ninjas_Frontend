@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import "reset";
+@import "variables";
+@import "themes/light";
+@import "themes/dark";
+
+.app {
+  background: var(--primary-color);
+  color: var(--inverted-color);
+  font-family: 'Poppins', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.MuiPagination-ul {
+  li {
+    button {
+      color: var(--inverted-color);
+    }
+
+    button.Mui-selected {
+      background: var(--success-color);
+
+      &:hover {
+        background: #66bb6a;
+      }
+    }
+  }
+}
