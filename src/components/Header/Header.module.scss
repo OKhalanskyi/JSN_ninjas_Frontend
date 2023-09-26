@@ -1,0 +1,17 @@
+.Header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 30px;
+  border-bottom: 1px solid var(--inverted-color);
+}
+
+.HomeLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  color: var(--inverted-color);
+}
